@@ -5,10 +5,10 @@ throw false
 }
 let pesan = args.join` `
 let oi = `*▪𝙼𝙴𝙽𝚂𝙰𝙹𝙴:* ${pesan}`
-let teks = `*⺀𝐀𝐂𝐓𝐈𝐕𝐄𝐍𝐒𝐄 𝐁𝐎𝐓𝐒 - BOTAE/BOT CREADOR POR CHARLIE PROHIBIDO LA REVENTA PARA ADQUIRR EL BOT  +51994156047 ⺀*\n\n▪ ${oi}\n\n▪ *𝐄𝐭𝐢𝐪𝐮𝐞𝐭𝐚 𝐠𝐞𝐧𝐞𝐫𝐚𝐥:*\n`
+let teks = `*⺀ACTIVENSE BOTS ALEXABOT LOS INVOCA ⺀*\n\n▪ ${oi}\n\n▪ *𝐄𝐓𝐈𝐐𝐔𝐄𝐓𝐀 𝐆𝐄𝐍𝐄𝐑𝐀𝐋:*\n`
 for (let mem of participants) {
-teks += `•⚜️ @${mem.id.split('@')[0]}\n`}
-teks += `└@nigth_raidclan`
+teks += `|௮ @${mem.id.split('@')[0]}\n`}
+teks += `└@jhinx.ff`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
 }
 handler.help = ['tagall <mesaje>','invocar <mesaje>']
