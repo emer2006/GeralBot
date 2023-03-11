@@ -20,7 +20,7 @@ let teksbio = `
 ───────[ INFORMACIÓN DEL BOT ]───────
 
 ✅ *NOMBRE: CharlieBot*
-🐈 *Github:* https://github.com/aleizn
+🐈 *Github:* https://github.com/emer2006
 🥏 *Whatsapp* wa.me/51994156047
 
 `
